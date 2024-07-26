@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.grafico {
+    width: 40%;
+}
+
+#grafico-categorias {
+    width: 100%;
+    height: 300px;
+}
+
+.tabela {
+    width: 60%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+td {
+    background-color: #fff;
+}
+
+.formulario {
+    width: 40%;
+}
+
+#form-categoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-categoria label {
+    margin-bottom: 10px;
+}
+
+#form-categoria input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+#form-categoria button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tabela-categorias {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabela-categorias th, #tabela-categorias td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#tabela-categorias th {
+    background-color: #f0f0f0;
+}
+
+#tabela-categorias td {
+    background-color: #fff;
+}
+
+/* Estilos para a página PDV */
+
+.filtro {
+    width: 15%;
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid #ddd;
+}
+
+#form-filtro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-filtro input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+#form-filtro button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#categorias {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.btn-add-carrinho {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carrinho {
+    width: 30%;
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid #ddd;
+}
+
+#carrinho-produtos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#carrinho-produtos li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#carrinho-produtos img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Estilos para a página Login */
+
+.login {
+    width:

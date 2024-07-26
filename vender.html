@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="categorias.html">Categorias</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="vender.html">Vender</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="filtro">
+            <form id="form-filtro">
+                <input type="search" id="filtro" placeholder="Pesquisar...">
+                <button type="submit">Buscar</button>
+            </form>
+            <ul id="categorias">
+                <li>Categoria 1</li>
+                <li>Categoria 2</li>
+                <li>Categoria 3</li>
+            </ul>
+        </section>
+        <section class="grid-produtos">
+            <div class="card">
+                <img src="./img/sem_foto.jpg" alt="Produto 1">
+                <h2>Produto 1</h2>
+                <p>R$ 10,00</p>
+                <button class="btn-add-carrinho">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <img src="./img/sem_foto.jpg" alt="Produto 2">
+                <h2>Produto 2</h2>
+                <p>R$ 20,00</p>
+                <button class="btn-add-carrinho">Adicionar ao carrinho</button>
+            </div>
+            <div class="card">
+                <img src="./img/sem_foto.jpg" alt="Produto 3">
+                <h2>Produto 3</h2>
+                <p>R$ 30,00</p>
+                <button class="btn-add-carrinho">Adicionar ao carrinho</button>
+            </div>
+            <!-- mais cards aqui -->
+        </section>
+        <section class="carrinho">
+            <h2>Carrinho de Compras</h2>
+            <ul id="carrinho-produtos">
+                <li>
+                    <img src="./img/sem_foto.jpg" alt="Produto 1">
+                    <h2>Produto 1</h2>
+                    <p>R$ 10,00 x 1 = R$ 10,00</p>
+                </li>
+                <li>
+                    <img src="./img/sem_foto.jpg" alt="Produto 2">
+                    <h2>Produto 2</h2>
+                    <p>R$ 20,00 x 2 = R$ 40,00</p>
+                </li>
+                <!-- mais produtos do carrinho aqui -->
+            </ul>
+            <p>Total: R$ 50,00</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

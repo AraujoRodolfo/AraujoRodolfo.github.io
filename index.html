@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-	<title>Prof. Rodolfo Araujo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sistema Comercial</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<style>
-		.loading{
-			width: 10vw;
-			height: 10vw;
-			margin-left: 43vw;
-			border: 20px solid lightgray;
-			border-top: 20px solid green;
-			border-radius: 100%;
-			animation: load 1s linear infinite;
-		}
-
-		h1{text-align: center;margin-top: 30vh;}
-		@keyframes load{
-			0%{transform: rotate(0deg);}
-			100%{transform: rotate(360deg);}
-		}
-	</style>
-	<h1>Em produção</h1>
-	<div class="loading"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Sistema Comercial</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="login">
+            <h1>Login</h1>
+            <form id="form-login">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" placeholder="Digite seu usuário">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="Digite sua senha">
+                <button type="submit">Entrar</button>
+            </form>
+            <p>Esqueceu sua senha? <a href="#">Clique aqui</a></p>
+        </section>
+    </main>
 </body>
 </html>
